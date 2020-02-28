@@ -1,0 +1,15 @@
+body{
+    font-size: 20px;
+    background-color: rgb(80, 240, 128);
+    border: black;
+    border-bottom: black;
+    border: 5px solid black;
+}
+.linkS{
+    color: rgba(9, 59, 57, 0.925);
+    text-decoration: none;
+    font-style: oblique;
+}
+.linkSS{
+    color: dimgray;
+}

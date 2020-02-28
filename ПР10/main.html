@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="main.css">
+    <script src="script.js"></script>
+    <script type="text/javascript">
+        function get_js_version ()
+        {
+            this.jsv = {
+                    versions: [
+                        "1.1", "1.2", "1.3", "1.4", "1.5", "1.6", "1.7", "1.8", "1.9", "2.0"
+                    ],
+                    version: ""
+                };
+        
+            var d = document;
+        
+            for (i = 0; i < jsv.versions.length; i++) {
+                var g = d.createElement('script'),
+                    s = d.getElementsByTagName('script')[0];
+        
+                    g.setAttribute("language", "JavaScript" + jsv.versions[i]);
+                    g.text = "this.jsv.version='" + jsv.versions[i] + "';";
+                    s.parentNode.insertBefore(g, s);
+            }
+        
+            return jsv.version;
+        }
+        
+        document.write('JavaScript Version: ' + get_js_version());
+        </script>
+</head>
+<body>
+    <div id="nav">
+        <div class="menu-item">
+            Меню
+            <div class="submenu">
+              <h4>
+                Подменю
+                </h4>
+            </div>
+        </div>
+        <div class="menu-item">
+            Нагрузка
+            <div class="submenu">
+                <h4>Изменить нагрузку</h4>
+            </div>
+        </div>
+        <div class="menu-item">
+          
+            Регестрация
+            <div class="submenu">
+              <h4>
+                Логин
+              <input type="text" size="40">
+               Пароль
+              <input type="text" size="40">
+              <input type="submit" value="Отправить">
+              </>
+          </div>
+          
+        </div>
+    </div>
+
+</body>
+</html>

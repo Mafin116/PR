@@ -1,0 +1,20 @@
+.menu-item {
+    border: 1px solid rgb(122, 122, 122, 0.2);
+    display: inline-block; /*Выстраиваем пункты в линию*/
+    padding: 20px;
+    position: relative;
+    cursor: pointer; /*Указатель курсора мыши*/
+/*   background: rgb(122, 122, 122); */
+}
+.menu-item .submenu {
+    height: auto; /*высота открывающегося блока - не обязательный пункт*/
+    width: auto;/*ширина блока*/
+    background: rgba(78, 78, 78, 0.5); /*фон*/
+    display: none; /*скрываем все пункты меню*/
+    padding: 10px;
+    position: absolute;
+    cursor: pointer;
+}
+input{
+  padding: 3px;
+}

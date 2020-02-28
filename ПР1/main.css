@@ -1,0 +1,17 @@
+body{
+    background-blend-mode: multiply;
+    background-image: url(https://static8.depositphotos.com/1176848/894/i/450/depositphotos_8945283-stock-photo-checkerboard-chess-background.jpg);
+    background-color: aliceblue;
+    padding: 0px;
+    margin: 0px;
+    font-size: 30px;
+}
+.fon-overlay{
+    width: 100%;
+    height: 900px;
+    background: rgba(255, 255, 255, 0.658);
+}
+div{
+    padding: 20px;
+    color: black;
+}

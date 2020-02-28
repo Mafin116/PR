@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="script.js"></script>
+    <title>Pr9</title>
+</head>
+<body>
+    
+    <!-- <script type="text/javascript">    
+        function formatDate(date) {
+          var dd = date.getDate();
+          if (dd < 10) dd = '0' + dd;
+          var mm = date.getMonth() + 1;
+          if (mm < 10) mm = '0' + mm;
+          var yy = date.getFullYear() % 100;
+          if (yy < 10) yy = '0' + yy;
+          return dd + '.' + mm + '.' + yy;
+        }    
+        var d = new Date(2014, 0, 30); // 30 января 2014
+        alert(formatDate(d)); // '30.01.14'
+        </script>     -->
+        
+        <script type="text/javascript">
+            var s = new Date();
+            document.write(s.getTimezoneOffset());
+        </script>   
+       
+        <script type="text/javascript">
+            var s = new Date();
+            document.write(s.getUTCDate());
+        </script> 
+        
+        <script type="text/javascript">
+            var s = new Date();
+            document.write(s.getUTCDay());
+        </script>
+
+        <script type="text/javascript">
+            var s = new Date();
+            document.write(s.getUTCFullYear());
+        </script>
+      
+        <script type="text/javascript">
+            var s = new Date();
+            document.write("Час: " + s.getUTCHours() + "<br />");
+            document.write("Минуты: " + s.getUTCMinutes() + "<br />");
+            document.write("Секунды: " + s.getUTCSeconds() + "<br />");
+        </script>
+
+        <script type="text/javascript">
+            var s = new Date();
+            document.write("Миллисекунды: " + s.getUTCMilliseconds());
+        </script>
+        <br>
+        <script type="text/javascript">
+            var s = new Date();
+            document.write(s.setDate(31));
+        </script>
+        <br>
+        <script type="text/javascript">
+            var s = new Date();
+            document.write(s.setFullYear(2020));
+        </script>
+        <br>
+        <script type="text/javascript">
+            var s = new Date();
+            document.write(s.setHours(12));
+        </script>
+       <br>
+        <script type="text/javascript">
+            var s = new Date();
+            document.write(s.setMinutes(30));
+        </script>
+       <br>
+        <script type="text/javascript">
+            var s = new Date();
+            document.write(s.setMonth(10));
+        </script> 
+        <br>
+        <script type="text/javascript">
+            var s = new Date();
+            document.write(s.setSeconds(30));
+        </script>
+</html>
